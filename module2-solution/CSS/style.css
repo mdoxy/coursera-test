@@ -8,7 +8,7 @@ h1 {
 }
 
 .title {
-  border: 1px solid black;
+  border: 1px solid brown;
   font-weight: bold;
   position: absolute;
   right: 0;
@@ -22,17 +22,17 @@ h1 {
   padding: 45px 10px 5px 10px;
 }
 
-#chicken {
-  background-color: #ffb3b3;
+#butter chicken {
+  background-color: #f7b17c;
 }
 
-#beef {
-  background-color: red;
+#barfi {
+  background-color: yellow;
   color: white;
 }
 
 #sushi {
-  background-color: #ffff99;
+  background-color: #f76045;
 }
 
 .row {
