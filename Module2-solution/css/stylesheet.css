@@ -23,16 +23,18 @@ h1 {
 }
 
 #butter chicken {
-  background-color: #f7b17c;
+  background-color: pink;
+  color: black;
 }
 
 #barfi {
-  background-color: yellow;
+  background-color: maroon;
   color: white;
 }
 
 #sushi {
-  background-color: #f76045;
+  background-color: yellow;
+  
 }
 
 .row {
