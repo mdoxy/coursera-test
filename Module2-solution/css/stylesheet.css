@@ -22,7 +22,7 @@ h1 {
   padding: 45px 10px 5px 10px;
 }
 
-#butter chicken {
+#chicken {
   background-color: pink;
   color: black;
 }
@@ -44,7 +44,7 @@ h1 {
 
 div.section {
   background: gray;
-  border: 1px solid black;
+  border: 5px solid black;
   position: relative;
   margin: 10px;
 }
