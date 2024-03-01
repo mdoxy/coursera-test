@@ -8,14 +8,14 @@ h1 {
 }
 
 .title {
-  border: 1px solid brown;
+  border: 3px black;
   font-weight: bold;
   position: absolute;
   right: 0;
   width: 150px;
   text-align: center;
   padding: 10px 0 10px 0;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .description {
