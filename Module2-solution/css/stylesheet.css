@@ -43,10 +43,10 @@ h1 {
 }
 
 div.section {
-  background: gray;
+  background: #D3D3D3;
   border: 5px solid black;
   position: relative;
-  margin: 10px;
+  margin: 20px;
 }
 
 
