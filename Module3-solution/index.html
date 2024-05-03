@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food, LLC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    .dropdown-menu {
+      width: 100%;
+      background-color: #f8f9fa; /* Set background color of dropdown menu */
+    }
+    .tall-section {
+      height: 1000px; /* Adjust height as needed */
+      background-color: #f0f0f0; /* Set background color of tall section */
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <!-- Navbar Header -->
+    <div class="navbar-header">
+      <!-- Company Name -->
+      <a class="navbar-brand" href="#">Food, LLC</a>
+      <!-- Mobile Menu Button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Navbar Collapse -->
+    <div class="collapse navbar-collapse" id="mobile-menu">
+      <ul class="nav navbar-nav visible-xs"> <!-- visible-xs class hides items on desktop and tablet views -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Beef</a></li>
+            <li><a href="#">Sushi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Page Heading -->
+  <h1 class="text-center">Our Menu</h1>
+</div>
+
+<!-- Tall Section -->
+<div class="container-fluid tall-section">
+  <div class="container">
+    <!-- Bootstrap Grid -->
+    <div class="row">
+      <div class="col-xs-12">
+        <!-- Content of the tall section goes here -->
+        <!-- For demonstration purposes, adding lorem ipsum text -->
+      
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat tortor sed enim porta, a gravida velit faucibus. Donec malesuada nisi at purus aliquet consequat. Sed in tristique eros. Duis vehicula, justo eget bibendum ultrices, ante risus placerat felis, nec ultricies nisi ex eget libero. Phasellus dictum ligula quis quam auctor lacinia. Integer a sapien in lectus sodales sodales. Ut eget sapien et purus bibendum aliquet. Mauris nec vestibulum ipsum. Nam sit amet massa vel mauris lacinia feugiat. Donec laoreet, sapien ut tincidunt ultrices, arcu diam pellentesque nulla, vitae pharetra quam orci ut purus. Nam dapibus scelerisque enim nec tristique. Aliquam fringilla ligula ac risus dapibus consectetur. Phasellus tempor tellus non justo vehicula, vel facilisis nunc laoreet.</p>
+
+        <!-- More lorem ipsum text -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
 
