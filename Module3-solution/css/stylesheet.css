@@ -1,8 +1,23 @@
+/* Custom styles */
+.navbar-default {
+  background-color: #333; /* Darker background color for navbar */
+  border-color: #222; /* Darker border color for navbar */
+}
+
+.navbar-default .navbar-brand {
+  color: #fff; /* White color for navbar brand */
+}
+
 .dropdown-menu {
   width: 100%;
   background-color: #f8f9fa; /* Set background color of dropdown menu */
 }
+
 .tall-section {
   height: 1000px; /* Adjust height as needed */
-  background-color: #f0f0f0; /* Set background color of tall section */
+  background-color: #dcdcdc; /* Darker background color for tall section */
+}
+
+.text-center {
+  color: #333; /* Darker text color for page heading */
 }
