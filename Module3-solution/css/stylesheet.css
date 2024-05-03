@@ -1,11 +1,20 @@
 /* Custom styles */
 .navbar-default {
-  background-color: #	#808080; /* Darker background color for navbar */
+  background-color: #333; /* Darker background color for navbar */
   border-color: #222; /* Darker border color for navbar */
 }
 
 .navbar-default .navbar-brand {
   color: #fff; /* White color for navbar brand */
+  font-weight: bold; /* Make navbar brand slightly bold */
+}
+
+.navbar-default .navbar-brand:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #000; /* Black color for border */
 }
 
 .dropdown-menu {
@@ -20,4 +29,12 @@
 
 .text-center {
   color: #333; /* Darker text color for page heading */
+}
+
+.info-box {
+  background-color: #f8f9fa; /* Background color for info box */
+  padding: 10px; /* Add padding to the info box */
+  margin-top: 20px; /* Add margin to the top of the info box */
+  border: 1px solid #ccc; /* Add border to the info box */
+  border-radius: 5px; /* Add border radius to the info box */
 }
