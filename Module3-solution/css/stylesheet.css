@@ -1,1 +1,8 @@
-
+.dropdown-menu {
+  width: 100%;
+  background-color: #f8f9fa; /* Set background color of dropdown menu */
+}
+.tall-section {
+  height: 1000px; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Set background color of tall section */
+}
