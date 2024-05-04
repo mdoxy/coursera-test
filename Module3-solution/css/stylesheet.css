@@ -1,40 +1,32 @@
-/* Custom styles */
-.navbar-default {
-  background-color: #333; /* Darker background color for navbar */
-  border-color: #222; /* Darker border color for navbar */
+* {
+    box-sizing: border-box;
 }
 
-.navbar-default .navbar-brand {
-  color: #fff; /* White color for navbar brand */
-  font-weight: bold; /* Make navbar brand slightly bold */
+#nav-list > li {
+    text-align: center;
 }
 
-.navbar-default .navbar-brand:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 5px;
-  background-color: #000; /* Black color for border */
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+#section-1{
+    background-color: #B3E5FF;
 }
 
-.dropdown-menu {
-  width: 100%;
-  background-color: #f8f9fa; /* Set background color of dropdown menu */
+#section-2 {
+    background-color: #FFC7B3;
 }
 
-.tall-section {
-  height: 1000px; /* Adjust height as needed */
-  background-color: #dcdcdc; /* Darker background color for tall section */
+#section-3 {
+    background-color: #C3FF80;
 }
 
-.text-center {
-  color: #333; /* Darker text color for page heading */
+#text > h3 {
+    margin-bottom: 15px;
 }
 
-.info-box {
-  background-color: #f8f9fa; /* Background color for info box */
-  padding: 10px; /* Add padding to the info box */
-  margin-top: 20px; /* Add margin to the top of the info box */
-  border: 1px solid #ccc; /* Add border to the info box */
-  border-radius: 5px; /* Add border radius to the info box */
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
 }
